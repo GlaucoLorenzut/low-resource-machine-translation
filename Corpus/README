@@ -1,6 +1,15 @@
+General Datasets:
 Cleaned full dataset: 00
 Cleaned splitted sets: 01,02,03
 Combined sets of always two full datasets: 04
-Still to do: 05
 
-WMT DEV and WMT Test can be used for test/validate purposes
+-----------------------------------------------------------------------------------------
+Test/validate purposes
+
+The DEV dataset cleaned (deleted similar translations and normal cleaning proces): 05
+The DEV set (just deleted the <...> in the dataset, use as normal set : 06
+The Test set (just deleted the <...> in the dataset, use as general test set: 07
+
+-------------------------------------------------------------------------------------
+find PIB datasets on google drive: https://drive.google.com/drive/folders/1dWw-225_fS1dwwuWP2OcsZwa5Ac-kipt
+upload to github is not possible, since tamil sets are too large
