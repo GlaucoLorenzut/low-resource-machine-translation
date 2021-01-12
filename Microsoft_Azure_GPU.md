@@ -56,7 +56,7 @@
    ```
    pip3 install fairseq
    pip3 install sacremoses
-   pip3 install tensorboard
+   pip3 install tensorboardX
    git clone https://github.com/GiIbert/trans
    ```
    
