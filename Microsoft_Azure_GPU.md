@@ -56,6 +56,7 @@
    ```
    pip3 install fairseq
    pip3 install sacremoses
+   pip3 install tensorboardX
    git clone https://github.com/GiIbert/trans
    ```
    
@@ -96,9 +97,9 @@
     --eval-bleu-print-samples \
     --best-checkpoint-metric bleu --maximize-best-checkpoint-metric \
     --save-dir ./checkpoints \
+    --tensorboard-logdir ./tensorboard_log \
     --keep-last-epochs 1 \
     --log-format=json --log-interval=10 2>&1 | tee train.log &
-    ```
 
 4. Get _train.sh_ to Azure training directory
 
