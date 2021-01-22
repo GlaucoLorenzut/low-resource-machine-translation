@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, azureml_logging=False, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='./data-bin/MKB', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, reset_logging=True, scoring='bleu', seed=1, source_lang='en', srcdict='voc/dict.en.txt', suppress_crashes=False, target_lang='ta', task='translation', tensorboard_logdir=None, testpref='intermediate_datasets/BPE/MKB/test', tgtdict='voc/dict.ta.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='intermediate_datasets/BPE/MKB/train', user_dir=None, validpref='intermediate_datasets/BPE/MKB/val', wandb_project=None, workers=20)
+[en] Dictionary: 12144 types
+[en] intermediate_datasets/BPE/MKB/train.en: 3964 sents, 100206 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 12144 types
+[en] intermediate_datasets/BPE/MKB/val.en: 850 sents, 21446 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 12144 types
+[en] intermediate_datasets/BPE/MKB/test.en: 849 sents, 21667 tokens, 0.0% replaced by <unk>
+[ta] Dictionary: 42952 types
+[ta] intermediate_datasets/BPE/MKB/train.ta: 3964 sents, 86466 tokens, 0.0% replaced by <unk>
+[ta] Dictionary: 42952 types
+[ta] intermediate_datasets/BPE/MKB/val.ta: 850 sents, 18365 tokens, 0.0% replaced by <unk>
+[ta] Dictionary: 42952 types
+[ta] intermediate_datasets/BPE/MKB/test.ta: 849 sents, 18776 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to ./data-bin/MKB
